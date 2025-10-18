@@ -14,7 +14,7 @@ import pymssql
 conn = pymssql.connect(
     server='localhost',
     user='sa',
-    password='unida123!',
+    password='Passw0rd!',
     database='unidaDB'
 )
 cursor = conn.cursor()

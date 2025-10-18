@@ -1,10 +1,10 @@
 '''
 docker run -d \
   --name mysql-db \
-  -e MYSQL_ROOT_PASSWORD=miclave \
-  -e MYSQL_DATABASE=mibase \
-  -e MYSQL_USER=usuario \
-  -e MYSQL_PASSWORD=miclave \
+  -e MYSQL_ROOT_PASSWORD=unida123 \
+  -e MYSQL_DATABASE=jaguarete \
+  -e MYSQL_USER=unida \
+  -e MYSQL_PASSWORD=unida123 \
   -p 3306:3306 \
   mysql:latest
 
@@ -16,9 +16,9 @@ import pymysql
 # Parámetros de conexión
 host = "localhost"
 port = 3306
-user = "usuario"
-password = "miclave"
-database = "mibase"
+user = "unida"
+password = "unida123"
+database = "jaguarete"
 
 try:
     # Crear conexión
